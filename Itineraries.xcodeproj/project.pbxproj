@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		108852281980C512005C6A0F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 108852271980C512005C6A0F /* main.m */; };
+		1088522B1980C512005C6A0F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1088522A1980C512005C6A0F /* ViewController.m */; };
+		1088522E1980C512005C6A0F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1088522D1980C512005C6A0F /* AppDelegate.m */; };
+		108852311980C512005C6A0F /* Itineraries.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1088522F1980C512005C6A0F /* Itineraries.xcdatamodeld */; };
+		108852331980C512005C6A0F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 108852321980C512005C6A0F /* Images.xcassets */; };
+		108852361980C512005C6A0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 108852341980C512005C6A0F /* Main.storyboard */; };
+		108852421980C512005C6A0F /* ItinerariesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 108852411980C512005C6A0F /* ItinerariesTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1088523C1980C512005C6A0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1088521A1980C512005C6A0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 108852211980C512005C6A0F;
+			remoteInfo = Itineraries;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		108852221980C512005C6A0F /* Itineraries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Itineraries.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		108852261980C512005C6A0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		108852271980C512005C6A0F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		108852291980C512005C6A0F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1088522A1980C512005C6A0F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1088522C1980C512005C6A0F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1088522D1980C512005C6A0F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		108852301980C512005C6A0F /* Itineraries.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Itineraries.xcdatamodel; sourceTree = "<group>"; };
+		108852321980C512005C6A0F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		108852351980C512005C6A0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1088523B1980C512005C6A0F /* ItinerariesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ItinerariesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		108852401980C512005C6A0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		108852411980C512005C6A0F /* ItinerariesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ItinerariesTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1088521F1980C512005C6A0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		108852381980C512005C6A0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		108852191980C512005C6A0F = {
+			isa = PBXGroup;
+			children = (
+				108852241980C512005C6A0F /* Itineraries */,
+				1088523E1980C512005C6A0F /* ItinerariesTests */,
+				108852231980C512005C6A0F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		108852231980C512005C6A0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				108852221980C512005C6A0F /* Itineraries.app */,
+				1088523B1980C512005C6A0F /* ItinerariesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		108852241980C512005C6A0F /* Itineraries */ = {
+			isa = PBXGroup;
+			children = (
+				108852291980C512005C6A0F /* ViewController.h */,
+				1088522A1980C512005C6A0F /* ViewController.m */,
+				1088522C1980C512005C6A0F /* AppDelegate.h */,
+				1088522D1980C512005C6A0F /* AppDelegate.m */,
+				108852321980C512005C6A0F /* Images.xcassets */,
+				108852341980C512005C6A0F /* Main.storyboard */,
+				1088522F1980C512005C6A0F /* Itineraries.xcdatamodeld */,
+				108852251980C512005C6A0F /* Supporting Files */,
+			);
+			path = Itineraries;
+			sourceTree = "<group>";
+		};
+		108852251980C512005C6A0F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				108852261980C512005C6A0F /* Info.plist */,
+				108852271980C512005C6A0F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1088523E1980C512005C6A0F /* ItinerariesTests */ = {
+			isa = PBXGroup;
+			children = (
+				108852411980C512005C6A0F /* ItinerariesTests.m */,
+				1088523F1980C512005C6A0F /* Supporting Files */,
+			);
+			path = ItinerariesTests;
+			sourceTree = "<group>";
+		};
+		1088523F1980C512005C6A0F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				108852401980C512005C6A0F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		108852211980C512005C6A0F /* Itineraries */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 108852451980C512005C6A0F /* Build configuration list for PBXNativeTarget "Itineraries" */;
+			buildPhases = (
+				1088521E1980C512005C6A0F /* Sources */,
+				1088521F1980C512005C6A0F /* Frameworks */,
+				108852201980C512005C6A0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Itineraries;
+			productName = Itineraries;
+			productReference = 108852221980C512005C6A0F /* Itineraries.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1088523A1980C512005C6A0F /* ItinerariesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 108852481980C512005C6A0F /* Build configuration list for PBXNativeTarget "ItinerariesTests" */;
+			buildPhases = (
+				108852371980C512005C6A0F /* Sources */,
+				108852381980C512005C6A0F /* Frameworks */,
+				108852391980C512005C6A0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1088523D1980C512005C6A0F /* PBXTargetDependency */,
+			);
+			name = ItinerariesTests;
+			productName = ItinerariesTests;
+			productReference = 1088523B1980C512005C6A0F /* ItinerariesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1088521A1980C512005C6A0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Aldrich Wingsiong";
+				TargetAttributes = {
+					108852211980C512005C6A0F = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					1088523A1980C512005C6A0F = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 108852211980C512005C6A0F;
+					};
+				};
+			};
+			buildConfigurationList = 1088521D1980C512005C6A0F /* Build configuration list for PBXProject "Itineraries" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 108852191980C512005C6A0F;
+			productRefGroup = 108852231980C512005C6A0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				108852211980C512005C6A0F /* Itineraries */,
+				1088523A1980C512005C6A0F /* ItinerariesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		108852201980C512005C6A0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				108852331980C512005C6A0F /* Images.xcassets in Resources */,
+				108852361980C512005C6A0F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		108852391980C512005C6A0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1088521E1980C512005C6A0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1088522B1980C512005C6A0F /* ViewController.m in Sources */,
+				108852281980C512005C6A0F /* main.m in Sources */,
+				1088522E1980C512005C6A0F /* AppDelegate.m in Sources */,
+				108852311980C512005C6A0F /* Itineraries.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		108852371980C512005C6A0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				108852421980C512005C6A0F /* ItinerariesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1088523D1980C512005C6A0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 108852211980C512005C6A0F /* Itineraries */;
+			targetProxy = 1088523C1980C512005C6A0F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		108852341980C512005C6A0F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				108852351980C512005C6A0F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		108852431980C512005C6A0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		108852441980C512005C6A0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		108852461980C512005C6A0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Itineraries/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		108852471980C512005C6A0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Itineraries/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		108852491980C512005C6A0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Itineraries.app/Contents/MacOS/Itineraries";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ItinerariesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		1088524A1980C512005C6A0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Itineraries.app/Contents/MacOS/Itineraries";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ItinerariesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1088521D1980C512005C6A0F /* Build configuration list for PBXProject "Itineraries" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				108852431980C512005C6A0F /* Debug */,
+				108852441980C512005C6A0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		108852451980C512005C6A0F /* Build configuration list for PBXNativeTarget "Itineraries" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				108852461980C512005C6A0F /* Debug */,
+				108852471980C512005C6A0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		108852481980C512005C6A0F /* Build configuration list for PBXNativeTarget "ItinerariesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				108852491980C512005C6A0F /* Debug */,
+				1088524A1980C512005C6A0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1088522F1980C512005C6A0F /* Itineraries.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				108852301980C512005C6A0F /* Itineraries.xcdatamodel */,
+			);
+			currentVersion = 108852301980C512005C6A0F /* Itineraries.xcdatamodel */;
+			path = Itineraries.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1088521A1980C512005C6A0F /* Project object */;
+}
